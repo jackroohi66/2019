@@ -4,7 +4,7 @@ import DustCloud from "./DustCloud";
 import Planetismal from "./Planetismal";
 
 export default class StarSystem {
-  constructor(constants = {}) {
+  constructor(constants = {}) { 
     this.config = Object.assign(
       {},
       {
